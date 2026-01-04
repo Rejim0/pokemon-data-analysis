@@ -1,11 +1,11 @@
-# Exploratory Analysis of Pokémon Combat Statistics
+# Exploratory Analysis of Pokemon Combat Statistics
 
 ## 📌 Overview
-This project performs an exploratory data analysis (EDA) on Pokémon combat statistics to understand how different attributes such as attack, defense, speed, type, generation, and legendary status influence overall Pokémon strength. The analysis focuses on discovering patterns, relationships, and trends through statistics and visualizations rather than prediction or machine learning.
+This project performs an exploratory data analysis (EDA) on Pokemon combat statistics to understand how different attributes such as attack, defense, speed, type, generation, and legendary status influence overall Pokemon strength. The analysis focuses on discovering patterns, relationships, and trends through statistics and visualizations rather than prediction or machine learning.
 
 ## 📂 Dataset
-- **Source:** Pokémon dataset (CSV file)
-- **Total Records:** 800 Pokémon
+- **Source:** Pokemon dataset (CSV file)
+- **Total Records:** 800 Pokemon
 - **Features Include:**
   - HP
   - Attack
@@ -33,16 +33,16 @@ This project performs an exploratory data analysis (EDA) on Pokémon combat stat
 ### 🔹 Stage 3 — Exploratory Data Analysis
 The following key questions were explored:
 
-- How are Pokémon stats distributed?
+- How are Pokemon stats distributed?
 - Which stats vary the most?
-- Are Legendary Pokémon statistically stronger?
-- Which Pokémon types are fastest or strongest?
-- Do Pokémon stats change across generations?
+- Are Legendary Pokemon statistically stronger?
+- Which Pokemon types are fastest or strongest?
+- Do Pokemon stats change across generations?
 - How are different stats correlated?
-- Which Pokémon are the most offensive, defensive, or balanced?
+- Which Pokemon are the most offensive, defensive, or balanced?
 
 ### 🔹 Custom Metrics
-To better evaluate Pokémon performance:
+To better evaluate Pokemon performance:
 - **Offense Score** = Attack + Special Attack  
 - **Defense Score** = Defense + Special Defense  
 - **Balanced Score** = Offense Score + Defense Score  
@@ -54,7 +54,7 @@ These metrics were used to rank Pokémon and identify top offensive, defensive, 
 ## 📊 Visualizations
 The project includes:
 - Histograms for stat distributions
-- Boxplots comparing Legendary vs Non-Legendary Pokémon
+- Boxplots comparing Legendary vs Non-Legendary Pokemon
 - Bar charts for type-based comparisons
 - Line plots for generation trends
 - Correlation heatmaps
@@ -63,11 +63,11 @@ The project includes:
 All visual outputs are saved in the `images/` directory.
 
 ## 🧠 Key Insights
-- Pokémon stats show significant variability, especially in offensive attributes
-- Legendary Pokémon consistently outperform non-Legendary Pokémon
-- Different Pokémon types specialize in speed, attack, or defense
+- Pokemon stats show significant variability, especially in offensive attributes
+- Legendary Pokemon consistently outperform non-Legendary Pokémon
+- Different Pokemon types specialize in speed, attack, or defense
 - No clear power inflation across generations
-- Balanced Pokémon with high offense and defense are rare but extremely powerful
+- Balanced Pokemon with high offense and defense are rare but extremely powerful
 
 ## 🛠 Tools & Technologies
 - Python
